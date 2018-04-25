@@ -2,6 +2,7 @@
 Problem Number: 771
 Difficulty level: Easy
 Link: https://leetcode.com/problems/jewels-and-stones
+Author: namratabilurkar
 '''
 '''
 Input: J = "aA", S = "aAAbbbb"
@@ -36,4 +37,4 @@ J = "z"
 S = "ZZ"
 obj1 = Solution()
 output = obj1.numJewelsInStones(J, S)
-print(output)
+print(output) # 0

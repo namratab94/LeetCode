@@ -41,6 +41,7 @@ class Solution(object):
             print(1)
             return 1
 
+        # Check if using the sets without storing them in variables still occupies space
         actual_set = set(range(smallest_pos_int,upper_bound_int+1,1))
         given_set = set(nums)
         diff_list = list(actual_set.difference(given_set))
